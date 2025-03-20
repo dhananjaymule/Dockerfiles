@@ -1,4 +1,4 @@
-FROM golang:latest as builder
+FROM registry.redhat.io/ubi8/ubi:8.10-1184.1741795395  as builder
 
 WORKDIR /build
 ADD . /build/
